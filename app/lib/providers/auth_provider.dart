@@ -4,8 +4,8 @@ import 'package:friend_private/backend/auth.dart';
 import 'package:friend_private/backend/preferences.dart';
 import 'package:friend_private/providers/base_provider.dart';
 import 'package:friend_private/services/notification_service.dart';
-import 'package:friend_private/utils/alerts/app_snackbar.dart';
 import 'package:friend_private/utils/analytics/mixpanel.dart';
+import 'package:friend_private/widgets/alerts/app_snackbar.dart';
 import 'package:instabug_flutter/instabug_flutter.dart';
 import 'package:url_launcher/url_launcher.dart';
 

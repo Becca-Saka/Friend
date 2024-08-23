@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:friend_private/backend/http/cloud_storage.dart';
 import 'package:friend_private/backend/preferences.dart';
 import 'package:friend_private/providers/base_provider.dart';
-import 'package:friend_private/utils/alerts/app_snackbar.dart';
 import 'package:friend_private/utils/analytics/mixpanel.dart';
+import 'package:friend_private/widgets/alerts/app_snackbar.dart';
 
 class DeveloperModeProvider extends BaseProvider {
   final TextEditingController gcpCredentialsController = TextEditingController();
